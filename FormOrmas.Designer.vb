@@ -35,7 +35,6 @@ Partial Class FormOrmas
         Me.btnAdd = New System.Windows.Forms.Button()
         Me.btnEdit = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
-        Me.btnSave = New System.Windows.Forms.Button()
         Me.txtSuratPermohonan = New System.Windows.Forms.TextBox()
         Me.txtNoHPKetua = New System.Windows.Forms.TextBox()
         Me.txtNamaKetua = New System.Windows.Forms.TextBox()
@@ -113,7 +112,7 @@ Partial Class FormOrmas
         '
         'btnAdd
         '
-        Me.btnAdd.Location = New System.Drawing.Point(133, 280)
+        Me.btnAdd.Location = New System.Drawing.Point(211, 280)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(106, 23)
         Me.btnAdd.TabIndex = 3
@@ -122,7 +121,7 @@ Partial Class FormOrmas
         '
         'btnEdit
         '
-        Me.btnEdit.Location = New System.Drawing.Point(302, 280)
+        Me.btnEdit.Location = New System.Drawing.Point(426, 280)
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(75, 23)
         Me.btnEdit.TabIndex = 3
@@ -131,21 +130,12 @@ Partial Class FormOrmas
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(458, 280)
+        Me.btnDelete.Location = New System.Drawing.Point(600, 280)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(75, 23)
         Me.btnDelete.TabIndex = 3
         Me.btnDelete.Text = "Hapus Data"
         Me.btnDelete.UseVisualStyleBackColor = True
-        '
-        'btnSave
-        '
-        Me.btnSave.Location = New System.Drawing.Point(601, 280)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(109, 23)
-        Me.btnSave.TabIndex = 3
-        Me.btnSave.Text = "Simpan Perubahan"
-        Me.btnSave.UseVisualStyleBackColor = True
         '
         'txtSuratPermohonan
         '
@@ -282,7 +272,6 @@ Partial Class FormOrmas
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.btnEdit)
         Me.Controls.Add(Me.btnAddKelurahan)
@@ -320,7 +309,6 @@ Partial Class FormOrmas
     Friend WithEvents btnAdd As Button
     Friend WithEvents btnEdit As Button
     Friend WithEvents btnDelete As Button
-    Friend WithEvents btnSave As Button
     Friend WithEvents txtSuratPermohonan As TextBox
     Friend WithEvents txtNoHPKetua As TextBox
     Friend WithEvents txtNamaKetua As TextBox

@@ -204,4 +204,6 @@ Public Class FormOrmas
         cmbKecamatan.SelectedIndex = -1
         cmbKelurahan.SelectedIndex = -1
     End Sub
+
+
 End Class
