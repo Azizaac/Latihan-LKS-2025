@@ -145,6 +145,9 @@
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMasterData.resx">
+      <DependentUpon>FormMasterData.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormOrmas.resx">
       <DependentUpon>FormOrmas.vb</DependentUpon>
     </EmbeddedResource>

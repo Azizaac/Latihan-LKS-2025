@@ -4,7 +4,7 @@ Public Module Koneksi
     ' Properti untuk string koneksi
     Public ReadOnly Property ConnectionString As String
         Get
-            Return "Server=DESKTOP-38NTSHC\SQLEXPRESS;Database=OrmasLKS;Trusted_Connection=True;TrustServerCertificate=True"
+            Return "Server=LAPTOP-LSE5JD9C\SQLEXPRESS;Database=OrmasLKS;Trusted_Connection=True;TrustServerCertificate=True"
         End Get
     End Property
 
